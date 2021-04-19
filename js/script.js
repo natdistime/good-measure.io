@@ -22,3 +22,5 @@ function nav(e){
     $("#nav a").fadeTo("fast", 0.25);
     $(this).fadeTo("fast", 1);
 }
+
+
