@@ -30,11 +30,12 @@
     />
 
     <script src="js/script.js"></script>
-    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet">
 
     <title>Good Measure Food Bank</title>
   </head>
   <body>
+<!--     
     <nav class="navbar navbar-light bg-light">
       <div class="container-fluid">
         <button id="nav_left" class="btn btn-outline-dark">
@@ -54,34 +55,75 @@
           <i class="bi bi-person"></i>
         </button>
       </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="modules/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="modules/contacts.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="modules/events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="modules/donate.html">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="modules/volunteer.html">Volunteer</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="modules/aboutus.html">About Us</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="modules/hours.html">Hours</a>
+            </li>                      
+           
+          
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
+</div>
 
     <div id="centerContainer">
       <div class="container">
         <div class="row">
           <div class="col-4 d-flex flex-column align-items-center iconsCol">
             <i class="bi bi-calendar"></i>
-            <a href="">Appointments</a>
+            <a href="appointments.html">Appointments</a>
           </div>
           <div class="col-4 d-flex flex-column align-items-center iconsCol">
             <i class="bi bi-clock"></i>
-            <a href="">Hours/Events</a>
+            <a href="hours.html">Hours/Events</a>
+          </div>
+          <div class="col-4 d-flex flex-column align-items-center iconsCol">
+            <i class="bi bi-heart"></i>
+            <a href="donate.html">Donate</a>
           </div>
           <div class="col-4 d-flex flex-column align-items-center iconsCol">
             <i class="bi bi-person"></i>
-            <a href="">Donate</a>
+            <a href="volunteer.html">Volunteer</a>
           </div>
           <div class="col-4 d-flex flex-column align-items-center iconsCol">
-            <i class="bi bi-person"></i>
-            <a href="">Volunteer</a>
+            <i class="bi bi-geo-alt"></i>
+            <a href="location.html">Location</a>
           </div>
           <div class="col-4 d-flex flex-column align-items-center iconsCol">
-            <i class="bi bi-person"></i>
-            <a href="">Location</a>
-          </div>
-          <div class="col-4 d-flex flex-column align-items-center iconsCol">
-            <i class="bi bi-person"></i>
-            <a href="">Column 6</a>
+            <i class="bi bi-people"></i>
+            <a href="aboutus.html">About Us</a>
           </div>
         </div>
       </div>
