@@ -16,7 +16,8 @@ body {
 }
 
 .iconsCol i {
-  font-size: 25px;
+  font-size: 30px;
+  color:#FBD490;
 }
 
 .iconsCol a {
@@ -25,4 +26,5 @@ body {
   font-size: 15px;
   margin-top: 10px;
   margin-bottom: 20px;
+  
 }
