@@ -16,13 +16,13 @@ body {
 }
 
 .iconsCol i {
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .iconsCol a {
   color: #8dc63f;
   text-decoration: none;
-
+  font-size: 15px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
