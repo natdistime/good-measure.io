@@ -19,7 +19,15 @@ body {
 }
 
 .mainWrapper {
-  padding: 6rem 1.25rem;
+  padding: 6rem 1.25rem;  
+}
+
+#intro {
+  text-align: center;
+}
+
+#logo {
+  margin: auto;
 }
 
 #centerContainer {
@@ -54,7 +62,17 @@ body {
 
 h3 {
   margin: 1.25rem 0;
+  margin-right: 10%;
   color: #8dc63f;
+  text-align: center;
+}
+
+h4 {
+  margin: 1.25rem 0;
+  margin-right: 10%;
+  color: #8dc63f;
+  text-align: center;
+  
 }
 
 .navbar-toggler {
@@ -70,3 +88,4 @@ button:focus {
   color: #000000 !important;
   /* text-decoration: none; */
 }
+
