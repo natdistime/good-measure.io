@@ -10,14 +10,14 @@ function start(){
 
 
 
-$(document).on ("click", "#nav a[href]", nav); 
+$(document).on("click", "#nav a[href]", nav); 
 
 function nav(e){
 
-    //e.preventDefault();
+    // e.preventDefault();
 
     var href = $(this).attr("href");
-    $("#content").load("modules/" + href);
+    $("body").load("modules/" + href);
 
     $("#nav a").fadeTo("fast", 0.25);
     $(this).fadeTo("fast", 1);

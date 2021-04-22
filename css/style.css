@@ -60,19 +60,16 @@ body {
   padding: 0.6rem;
 }
 
-h3 {
+h3, h4 {
   margin: 1.25rem 0;
   margin-right: 10%;
   color: #8dc63f;
   text-align: center;
+  font-family: "Poppins";
 }
 
-h4 {
-  margin: 1.25rem 0;
-  margin-right: 10%;
-  color: #8dc63f;
-  text-align: center;
-  
+p {
+  font-size: 15px;
 }
 
 .navbar-toggler {
